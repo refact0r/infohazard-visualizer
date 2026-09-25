@@ -1,0 +1,11 @@
+{
+  "name": "infohazard-visualizer",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "bun src/cli.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.2"
+  }
+}
