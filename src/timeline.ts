@@ -45,7 +45,7 @@ function syllables(word: string): number {
 function chooseMode(query: string): Mode {
   if (query === '&') return 'web';
   if (/^\d+$/.test(query)) return 'images';
-  if (FUNCTION_WORDS.has(query)) return Math.random() < 0.15 ? 'images' : 'web';
+  if (FUNCTION_WORDS.has(query)) return Math.random() < 0.3 ? 'images' : 'web';
   return Math.random() < 0.85 ? 'images' : 'web';
 }
 
